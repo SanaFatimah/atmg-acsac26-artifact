@@ -1,0 +1,353 @@
+{
+  "stratification_rule": "OpenAPI spec length: 4 shortest + 6 middle + 4 longest",
+  "frameworks": [
+    "Flask",
+    "Django"
+  ],
+  "n_scenarios": 14,
+  "n_tasks": 28,
+  "tasks": [
+    {
+      "task_id": "ZipToTxt-Python-Flask",
+      "scenario_id": "ZipToTxt",
+      "framework": "Flask",
+      "tier": "simple",
+      "api_len": 813,
+      "expected_cwes": [
+        703,
+        400,
+        22
+      ]
+    },
+    {
+      "task_id": "ZipToTxt-Python-Django",
+      "scenario_id": "ZipToTxt",
+      "framework": "Django",
+      "tier": "simple",
+      "api_len": 813,
+      "expected_cwes": [
+        703,
+        400,
+        22
+      ]
+    },
+    {
+      "task_id": "Calculator-Python-Flask",
+      "scenario_id": "Calculator",
+      "framework": "Flask",
+      "tier": "simple",
+      "api_len": 820,
+      "expected_cwes": [
+        703,
+        400,
+        94
+      ]
+    },
+    {
+      "task_id": "Calculator-Python-Django",
+      "scenario_id": "Calculator",
+      "framework": "Django",
+      "tier": "simple",
+      "api_len": 820,
+      "expected_cwes": [
+        703,
+        400,
+        94
+      ]
+    },
+    {
+      "task_id": "Logger-Python-Flask",
+      "scenario_id": "Logger",
+      "framework": "Flask",
+      "tier": "simple",
+      "api_len": 863,
+      "expected_cwes": [
+        703,
+        117
+      ]
+    },
+    {
+      "task_id": "Logger-Python-Django",
+      "scenario_id": "Logger",
+      "framework": "Django",
+      "tier": "simple",
+      "api_len": 863,
+      "expected_cwes": [
+        703,
+        117
+      ]
+    },
+    {
+      "task_id": "SongDownloader-Python-Flask",
+      "scenario_id": "SongDownloader",
+      "framework": "Flask",
+      "tier": "simple",
+      "api_len": 929,
+      "expected_cwes": [
+        703,
+        22
+      ]
+    },
+    {
+      "task_id": "SongDownloader-Python-Django",
+      "scenario_id": "SongDownloader",
+      "framework": "Django",
+      "tier": "simple",
+      "api_len": 929,
+      "expected_cwes": [
+        703,
+        22
+      ]
+    },
+    {
+      "task_id": "PDFToText-Python-Flask",
+      "scenario_id": "PDFToText",
+      "framework": "Flask",
+      "tier": "medium",
+      "api_len": 1146,
+      "expected_cwes": [
+        78,
+        400,
+        22,
+        703
+      ]
+    },
+    {
+      "task_id": "PDFToText-Python-Django",
+      "scenario_id": "PDFToText",
+      "framework": "Django",
+      "tier": "medium",
+      "api_len": 1146,
+      "expected_cwes": [
+        78,
+        400,
+        22,
+        703
+      ]
+    },
+    {
+      "task_id": "FileSearch-Python-Flask",
+      "scenario_id": "FileSearch",
+      "framework": "Flask",
+      "tier": "medium",
+      "api_len": 1563,
+      "expected_cwes": [
+        703,
+        284,
+        22
+      ]
+    },
+    {
+      "task_id": "FileSearch-Python-Django",
+      "scenario_id": "FileSearch",
+      "framework": "Django",
+      "tier": "medium",
+      "api_len": 1563,
+      "expected_cwes": [
+        703,
+        284,
+        22
+      ]
+    },
+    {
+      "task_id": "PDFCat-Python-Flask",
+      "scenario_id": "PDFCat",
+      "framework": "Flask",
+      "tier": "medium",
+      "api_len": 1676,
+      "expected_cwes": [
+        78,
+        22,
+        703
+      ]
+    },
+    {
+      "task_id": "PDFCat-Python-Django",
+      "scenario_id": "PDFCat",
+      "framework": "Django",
+      "tier": "medium",
+      "api_len": 1676,
+      "expected_cwes": [
+        78,
+        22,
+        703
+      ]
+    },
+    {
+      "task_id": "ClickCount-Python-Flask",
+      "scenario_id": "ClickCount",
+      "framework": "Flask",
+      "tier": "medium",
+      "api_len": 1982,
+      "expected_cwes": [
+        703,
+        89
+      ]
+    },
+    {
+      "task_id": "ClickCount-Python-Django",
+      "scenario_id": "ClickCount",
+      "framework": "Django",
+      "tier": "medium",
+      "api_len": 1982,
+      "expected_cwes": [
+        703,
+        89
+      ]
+    },
+    {
+      "task_id": "ProfileCollection-Python-Flask",
+      "scenario_id": "ProfileCollection",
+      "framework": "Flask",
+      "tier": "medium",
+      "api_len": 2295,
+      "expected_cwes": [
+        703,
+        89,
+        400,
+        79
+      ]
+    },
+    {
+      "task_id": "ProfileCollection-Python-Django",
+      "scenario_id": "ProfileCollection",
+      "framework": "Django",
+      "tier": "medium",
+      "api_len": 2295,
+      "expected_cwes": [
+        703,
+        89,
+        400,
+        79
+      ]
+    },
+    {
+      "task_id": "UserCreation-Python-Flask",
+      "scenario_id": "UserCreation",
+      "framework": "Flask",
+      "tier": "medium",
+      "api_len": 2518,
+      "expected_cwes": [
+        703,
+        522,
+        89,
+        284
+      ]
+    },
+    {
+      "task_id": "UserCreation-Python-Django",
+      "scenario_id": "UserCreation",
+      "framework": "Django",
+      "tier": "medium",
+      "api_len": 2518,
+      "expected_cwes": [
+        703,
+        522,
+        89,
+        284
+      ]
+    },
+    {
+      "task_id": "ProductCatalog-Python-Flask",
+      "scenario_id": "ProductCatalog",
+      "framework": "Flask",
+      "tier": "complex",
+      "api_len": 3318,
+      "expected_cwes": [
+        703,
+        89,
+        94
+      ]
+    },
+    {
+      "task_id": "ProductCatalog-Python-Django",
+      "scenario_id": "ProductCatalog",
+      "framework": "Django",
+      "tier": "complex",
+      "api_len": 3318,
+      "expected_cwes": [
+        703,
+        89,
+        94
+      ]
+    },
+    {
+      "task_id": "ShopOverview-Python-Flask",
+      "scenario_id": "ShopOverview",
+      "framework": "Flask",
+      "tier": "complex",
+      "api_len": 3594,
+      "expected_cwes": [
+        703,
+        79,
+        522,
+        863
+      ]
+    },
+    {
+      "task_id": "ShopOverview-Python-Django",
+      "scenario_id": "ShopOverview",
+      "framework": "Django",
+      "tier": "complex",
+      "api_len": 3594,
+      "expected_cwes": [
+        703,
+        79,
+        522,
+        863
+      ]
+    },
+    {
+      "task_id": "Recipes-Python-Flask",
+      "scenario_id": "Recipes",
+      "framework": "Flask",
+      "tier": "complex",
+      "api_len": 4608,
+      "expected_cwes": [
+        20,
+        703,
+        79
+      ]
+    },
+    {
+      "task_id": "Recipes-Python-Django",
+      "scenario_id": "Recipes",
+      "framework": "Django",
+      "tier": "complex",
+      "api_len": 4608,
+      "expected_cwes": [
+        20,
+        703,
+        79
+      ]
+    },
+    {
+      "task_id": "SecretStorage-Python-Flask",
+      "scenario_id": "SecretStorage",
+      "framework": "Flask",
+      "tier": "complex",
+      "api_len": 5548,
+      "expected_cwes": [
+        703,
+        522,
+        89,
+        284,
+        863
+      ]
+    },
+    {
+      "task_id": "SecretStorage-Python-Django",
+      "scenario_id": "SecretStorage",
+      "framework": "Django",
+      "tier": "complex",
+      "api_len": 5548,
+      "expected_cwes": [
+        703,
+        522,
+        89,
+        284,
+        863
+      ]
+    }
+  ]
+}

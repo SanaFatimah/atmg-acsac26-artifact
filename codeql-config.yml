@@ -1,0 +1,20 @@
+paths-ignore:
+  - venv
+  - .venv
+  - env
+  - __pycache__
+  - node_modules
+  - codeql
+
+  # Output and Data
+  - logs_rag_system
+  - local_pipeline
+
+  # Editor and Tooling configs
+  - .cursorules
+  - .windsurfrules
+  - .code-review-graph
+
+  # Documentation and JSON metadata
+  - "**/*.md"
+  - "**/*.json"
