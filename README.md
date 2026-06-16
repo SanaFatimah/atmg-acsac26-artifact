@@ -147,6 +147,22 @@ Running new experiments requires local model and tool setup:
 - CodeQL CLI available on `PATH` or via `CODEQL_BIN=/path/to/codeql`
 - Optional NVIDIA GPU for practical local inference
 
+Pull the local models used by the rebuttal runs:
+
+```bash
+ollama pull qwen3-coder-next:q4_K_M
+ollama pull qwen3:32b
+ollama pull gemma2:27b
+```
+
+Recommended runtime environment:
+
+```bash
+export ATMG_NUM_GPU=99
+export ATMG_NO_FALLBACK=1
+export OLLAMA_KEEP_ALIVE=24h
+```
+
 Example:
 
 ```bash
