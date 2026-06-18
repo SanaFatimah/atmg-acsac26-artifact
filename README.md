@@ -18,7 +18,11 @@ large generated databases, private notes, and full raw working-tree logs.
 - `data/securityeval_full.json`: full 121-task SecurityEval list.
 - `data/stratified_tasks_p3*.json`: stratified task metadata used by earlier
   phase scripts.
+- `data/experiment_vector_b_*.json`: archived 35-task Vec-B runs from the
+  original matched 2x2 campaign.
 - `results/`: JSON run records and summaries used for rebuttal statistics.
+- `analysis_outputs/vector_b_*`: compact checkpoint summaries for the archived
+  Vec-B 35-task conditions.
 - `logs/`: representative anonymized logs for spot checking.
 - `analyze.py`: Wilson confidence intervals and one-sided Fisher exact tests.
 
@@ -81,6 +85,27 @@ Odds ratio = 8.27
 Baseline serious-unresolved counts across seeds 42, 43, 44 are `3/35`,
 `3/35`, and `4/35`. Baseline clean counts are `22/35`, `23/35`, and
 `26/35`; mean final CVSS values are `2.27`, `2.16`, and `1.75`.
+
+### Archived 35-task 2x2 Vec-B campaign
+
+The original matched 35-task 2x2 campaign also includes Vec-B conditions. The
+archived run JSONs are:
+
+```text
+data/experiment_vector_b_undefended_1779042387.json
+data/experiment_vector_b_defended_1779183823.json
+```
+
+Compact summaries are provided at:
+
+```text
+analysis_outputs/vector_b_undefended_1779042387/checkpoint_summary.md
+analysis_outputs/vector_b_defended_1779183823/checkpoint_summary.md
+```
+
+These archived records support the five-condition 35-task accounting:
+baseline, Vec-A undefended, Vec-A defended, Vec-B undefended, and Vec-B
+defended, for 175 task runs.
 
 ### Full 121-task seed-42 campaign
 
