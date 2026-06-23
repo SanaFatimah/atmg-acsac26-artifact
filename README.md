@@ -1,9 +1,9 @@
-# ATMG Anonymous Rebuttal Artifact
+# ATMG Anonymous Artifact
 
-This repository is an anonymous artifact snapshot for the ATMG rebuttal. It
+This repository is an anonymous artifact snapshot for ATMG. It
 contains the source code, task lists, condition configuration, Docker sandbox
 files, analysis scripts, and compact result artifacts needed to reproduce the
-headline rebuttal statistics.
+headline evaluation statistics.
 
 The snapshot intentionally omits local virtual environments, CodeQL binaries,
 large generated databases, private notes, and full raw working-tree logs.
@@ -20,7 +20,7 @@ large generated databases, private notes, and full raw working-tree logs.
   phase scripts.
 - `data/experiment_vector_b_*.json`: archived 35-task Vec-B runs from the
   original matched 2x2 campaign.
-- `results/`: JSON run records and summaries used for rebuttal statistics.
+- `results/`: JSON run records and summaries used for evaluation statistics.
 - `analysis_outputs/vector_b_*`: compact checkpoint summaries for the archived
   Vec-B 35-task conditions.
 - `logs/`: representative anonymized logs for spot checking.
@@ -163,7 +163,7 @@ Odds ratio = 38.4
 
 ## Running New Experiments
 
-The included JSON results are sufficient to reproduce rebuttal statistics.
+The included JSON results are sufficient to reproduce the reported statistics.
 Running new experiments requires local model and tool setup:
 
 - Python 3
@@ -172,7 +172,7 @@ Running new experiments requires local model and tool setup:
 - CodeQL CLI available on `PATH` or via `CODEQL_BIN=/path/to/codeql`
 - Optional NVIDIA GPU for practical local inference
 
-Pull the local models used by the rebuttal runs:
+Pull the local models used by the reported runs:
 
 ```bash
 ollama pull qwen3-coder-next:q4_K_M

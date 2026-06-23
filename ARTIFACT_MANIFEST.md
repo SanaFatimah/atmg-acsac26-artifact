@@ -1,6 +1,6 @@
 # Artifact Manifest
 
-This snapshot contains only files needed for rebuttal verification.
+This snapshot contains only files needed for artifact verification.
 
 ## Included
 
